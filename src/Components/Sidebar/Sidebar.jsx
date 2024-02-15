@@ -16,9 +16,11 @@ const Sidebar = () => {
       <Link to={"/listproduct"} style={{ textDecoration: "none" }}>
         <div className="sidebar-item">
           <img src={list_product_icon} alt="" />
-          <p>Product List </p>
+          <p>Product List </p>  
         </div>
       </Link>
+   <a className="buttontag" href="https://e-commerce-frontend-seven-vert.vercel.app" target="_blank">BACK TO HOME </a>
+ 
     </div>
   );
 };
