@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 3px 3px -2px rgb(0, 205, 14);
+    margin-bottom: 1px;
+    background: linear-gradient(90deg, rgb(39, 6, 147) 0%, rgb(83, 105, 216) 5%, rgb(5, 112, 201) 11%, rgb(8, 105, 32) 20%, rgba(3,81,24,0.9921218487394958) 47%, rgb(0, 141, 148) 91%, rgba(0,212,255,1) 100%);
+}
+.nav-logo{
+    width: 200px;  
+}
+.nav-profile{
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .nav-logo{
+        width: 150px;
+    }
+    .nav-profile{
+        width: 60px;
+    }
+}
